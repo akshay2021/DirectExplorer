@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% load static %}
+
+ {% block content %}
+
+<body class="ecommerce">
+ 
+
+
+  <div class="main">
+      <div class="container">
+        <ul class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">Store</a></li>
+            <li class="active">Terms &amp; Conditions</li>
+        </ul>
+        <!-- BEGIN SIDEBAR & CONTENT -->
+        <div class="row margin-bottom-40">
+          <!-- BEGIN SIDEBAR -->
+          <div class="sidebar col-md-3 col-sm-3">
+      
+              {% include "base/sidebar.html" %}
+           
+          </div>
+          <!-- END SIDEBAR -->
+
+          <!-- BEGIN CONTENT -->
+          <div class="col-md-9 col-sm-9">
+            <h1>About us</h1>
+            <div class="content-page">
+              <p><img src="{% static 'img/p1.jpg' %}" alt="About us" class="img-responsive"></p> 
+
+              <p>Direct Explorer is the company that is started in East Rutherford.  It was begun by creating solution for business of toner and cartridges, heavy duty packing tapes, and magnetic toys on Ecommerce platform of Amazon, eBay, and Groupon.  It has varieties of toner and cartridges brands such as HP, Lexmark, Dell, Ricoh, Xerox, and so on. They also have their own brands of magnetic toys namely direct explorer for the children of more than three years old.</p>
+              <p>
+              This ecommerce website is for selling office supplies and some heavy-duty tools like packing tapes and hardware tools and toys & games.  Direct Explorer has many features like different brands office supplies, magnetic tile toys and games based on age of the children. It has custom made graphic design with unlimited revisions.  Direct explorer provides true content management tool, also has facility of add and delete information. 
+              </p> 
+                <h2>About Store</h2>
+              <p>
+              The online portal is like virtual store on web where users can select products. The item collects in a shopping cart. At the checkout time, they will need some transition information. Basically, the user will be asked to fill up the form about billing address, a shipping option, shipping address. The notification is sent by mail to user as soon as the order is placed.
+              </p>
+   </div>
+          </div>
+          <!-- END CONTENT -->
+        </div>
+        <!-- END SIDEBAR & CONTENT -->
+      </div>
+    </div>
+    {% endblock %}

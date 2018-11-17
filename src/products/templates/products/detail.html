@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+    <div class="main">
+      <div class="container">
+       
+        <!-- BEGIN SIDEBAR & CONTENT -->
+        <div class="row margin-bottom-40">
+          <!-- BEGIN SIDEBAR -->
+          <div class="sidebar col-md-3 col-sm-3">
+             {% include "base/sidebar.html" %}
+            </div>
+
+          <!-- BEGIN CONTENT -->
+          <div class="col-md-9 col-sm-7">
+            <div class="product-page">
+              <div class="row">
+                <div class="col-md-6 col-sm-6">
+                   <div class="product-main-image">
+                    {% if object.image %}
+                    <img src='{{ object.image.url }}' class='img-fluid' />
+                    {% endif %}
+                  </div>
+                
+                </div>
+
+                <div class="col-md-6 col-sm-6">
+                   <h1>{{ object.title }}</h1>
+                  <div class="price-availability-block clearfix">
+                    <div class="price">
+                      <strong><span>$</span>{{ object.price }}</strong>
+                    </div>
+                    
+                  </div>
+                  <div class="description">
+                    <p></p>
+                  </div>
+               
+                  <div class="product-page-cart">
+                  
+                    {% include 'products/snippets/update-cart.html' with product=object cart=cart %}                    
+                  </div>            
+                </div>
+
+                <div class="product-page-content">
+                  <ul class="nav nav-tabs">
+                    <li><a href="#Description" >Description</a></li>
+                  </ul>
+                  <div  class="tab-content">
+                    <div>
+                      <p>{{ object.description|linebreaks }} </p>
+                    </div>
+                  </div>
+                </div>             
+            </div>
+          </div>
+          <!-- END CONTENT -->
+        </div>
+        <!-- END SIDEBAR & CONTENT -->
+      </div>
+    </div>
+
+{% endblock %}

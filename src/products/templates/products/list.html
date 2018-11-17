@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+ <div class="container">
+    <div class="container-inner">
+        <h1><span>TOY</span> CATEGORY</h1>
+    </div>
+</div>
+    
+
+    <div class="main">
+      <div class="container">
+        <ul class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">Store</a></li>
+            <li class="active">Category</li>
+        </ul>
+        <!-- BEGIN SIDEBAR & CONTENT -->
+        <div class="row margin-bottom-40">
+          <!-- BEGIN SIDEBAR -->
+          <div class="sidebar col-md-3 col-sm-5">        
+          {% include "base/sidebar.html" %}
+          </div>
+          <!-- END SIDEBAR -->
+          <!-- BEGIN CONTENT -->
+          <div class="col-md-9 col-sm-7">
+            <!-- BEGIN PRODUCT LIST -->
+            <div class="row product-list">
+              <!-- PRODUCT ITEM START -->
+               {% for obj in object_list %}
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                 <div class="product-item">         
+                        {% include 'products/snippets/card.html' with instance=obj %}  
+                 </div>
+                 </div>
+               {% endfor %}
+              <!-- PRODUCT ITEM END -->          
+           
+            </div>
+            <!-- END PRODUCT LIST -->
+
+          </div>
+          <!-- END CONTENT -->
+        </div>
+        <!-- END SIDEBAR & CONTENT -->
+      </div>
+    </div>   
+    </div> 
+    </div>
+    </div>
+{% endblock %}

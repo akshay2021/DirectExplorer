@@ -1,0 +1,106 @@
+{% load static %}
+{% url 'index' as index_url %}
+{% url 'contact' as contact_url %}
+{% url 'products:list' as product_list_url %}
+{% url 'login' as login_url %}
+{% url 'logout' as logout_url %}
+{% url 'register' as register_url %}
+{% url 'cart:home' as cart_url %}
+{% url 'about' as about_url %}
+
+
+<div class="pre-header">
+        <div class="container">
+            <div class="row">
+                <!-- BEGIN TOP BAR LEFT PART -->
+                <div class="col-md-6 col-sm-6 additional-shop-info">
+                    <ul class="list-unstyled list-inline">
+                        <li><i class="fa fa-phone"></i><span>+1 456 6717</span></li>
+                        <!-- BEGIN CURRENCIES -->
+                       
+                        <!-- END LANGS -->
+                    </ul>
+                </div>
+                <!-- END TOP BAR LEFT PART -->
+                <!-- BEGIN TOP BAR MENU -->
+                <div class="col-md-6 col-sm-6 additional-nav">
+                    <ul class="list-unstyled list-inline pull-right">
+                        {% if request.user.is_authenticated %}
+                        <li class="{% if request.path == logout_url %} active {% endif %}">
+                          <a href="{{ logout_url }}">Logout</a>
+                        </li>
+                        {% else %}
+                        <li class="{% if request.path == register_url %} active {% endif %}">
+                          <a href="{{ register_url }}">Register</a>
+                        </li>
+                        <li class="{% if request.path == login_url %} active {% endif %}">
+                          <a  href="{{ login_url }}">Login</a>
+                        </li>
+                        {% endif %}
+      				</ul>
+                </div>
+                <!-- END TOP BAR MENU -->
+            </div>
+        </div>        
+    </div>
+
+
+   <div class="header">
+      <div class="container">
+        <a class="site-logo" href="{{ index_url }}"><img src="{% static 'img/direct.jpg' %}" alt="Metronic Shop UI"></a>
+
+        <a href="javascript:void(0);" class="mobi-toggler"><i class="fa fa-bars"></i></a>
+
+        <!-- BEGIN CART -->
+        <div class="top-cart-block {% if request.path == cart_url %} active {% endif %}">
+          {% if request.session.cart_items == None %}
+          <a href="{{ cart_url }}"><i class="fa fa-shopping-cart"></i></a>
+          {% else %}
+          <div class="top-cart-info">         
+              {{ request.session.cart_items }}
+               <a href="{{ cart_url }}"><i class="fa fa-shopping-cart"></i></a>   
+          </div>  
+          {% endif %}                    
+        </div>
+        <!--END CART -->
+        <div class="header-navigation">
+          <ul>
+           
+            <li class="nav-item {% if request.path == index_url %}active{% endif %}">
+              <a class="nav-link" href="{{ index_url }}">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item {% if request.path == contact_url %}active{% endif %}">
+              <a class="nav-link" href="{{ contact_url }}">Contact Us</a>
+            </li>
+            <li class="nav-item {% if request.path == product_list_url %}active{% endif %}">
+              <a class="nav-link" href="{{ product_list_url }}">Products</a>
+            </li>
+            <li class="nav-item {% if request.path == about_url %}active{% endif %}">
+              <a class="nav-link" href="{{ about_url }}">About Us</a>
+            </li>
+              <!-- <li class="nav-item {% if request.path == cart_url %}active{% endif %}">
+                <a class="nav-link" href="{{ cart_url }}">{{ request.session.cart_items }}<i class="fa fa-shopping-cart" aria-hidden="true"></i></a> -->
+            </li>
+            <!-- BEGIN TOP SEARCH -->
+            <li class="menu-search">
+              <span class="sep"></span>
+              <i class="fa fa-search search-btn"></i>
+              <div class="search-box">
+                {% include 'search/snippets/search-form.html' %}
+             <!--    <form action="#">
+                  <div class="input-group">
+                    <input type="text" placeholder="Search" class="form-control">
+                    <span class="input-group-btn">
+                      <button class="btn btn-primary" type="submit">Search</button>
+                    </span>
+                  </div>
+                </form> -->
+              </div> 
+            </li>
+            <!-- END TOP SEARCH -->
+          </ul>
+        </div>
+        <!-- END NAVIGATION -->
+      </div>
+    </div>
+

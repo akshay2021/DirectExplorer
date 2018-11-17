@@ -1,0 +1,19 @@
+ 
+         {% if instance.image %}
+                  <div class="pi-img-wrapper">
+                    <img src="{{ instance.image.url }}" class="img-responsive" alt="{{ instance.title}}logo">
+                    <div>
+                        <a href="{{ instance.image.url }}" class="btn btn-default fancybox-button">Zoom</a>
+             <a href="{{ instance.get_absolute_url }}" class="btn btn-default fancybox-fast-view">View</a>             
+                    </div>
+                  </div>
+          {% endif %}
+                  
+          <h4 class="card-title">{{ instance.title }}</h4>
+                  <div class="pi-price">{{ instance.price }}</div>
+                   <a href="{{ instance.get_absolute_url }}" class="btn btn-primary add2cart">View</a>
+
+           
+
+      
+      

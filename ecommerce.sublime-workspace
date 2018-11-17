@@ -1,0 +1,846 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"abou",
+				"about_url"
+			],
+			[
+				"core",
+				"core_views"
+			],
+			[
+				"index",
+				"index_url"
+			],
+			[
+				"is",
+				"is_done"
+			],
+			[
+				"s",
+				"shipping"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"add",
+				"AddressForm"
+			],
+			[
+				"bi",
+				"billing_address"
+			],
+			[
+				"ad",
+				"AddressForm"
+			],
+			[
+				"for",
+				"forms"
+			],
+			[
+				"orde",
+				"OrderManager"
+			],
+			[
+				"obj",
+				"objects"
+			],
+			[
+				"oder",
+				"order_obj_created"
+			],
+			[
+				"new",
+				"new_or_get"
+			],
+			[
+				"o",
+				"order_obj"
+			],
+			[
+				"b",
+				"billingprofile"
+			],
+			[
+				"bil",
+				"billing_profile"
+			],
+			[
+				"e",
+				"else"
+			],
+			[
+				"f",
+				"filter"
+			],
+			[
+				"boi",
+				"BillingProfile"
+			],
+			[
+				"gu",
+				"guest_email_id"
+			],
+			[
+				"gues",
+				"GuestEmail"
+			],
+			[
+				"guest_",
+				"guest_email_id"
+			],
+			[
+				"em",
+				"EmailField"
+			],
+			[
+				"fo",
+				"Form"
+			],
+			[
+				"lo",
+				"login_form"
+			],
+			[
+				"reg",
+				"register_page"
+			],
+			[
+				"logi",
+				"login_page"
+			],
+			[
+				"htt",
+				"http"
+			],
+			[
+				"order",
+				"order_obj"
+			],
+			[
+				"to",
+				"total"
+			],
+			[
+				"t",
+				"tbody\tTag"
+			],
+			[
+				"cart",
+				"cart_obj"
+			],
+			[
+				"log",
+				"logout_url"
+			],
+			[
+				"home",
+				"home_page"
+			],
+			[
+				"col",
+				"col-12"
+			],
+			[
+				"con",
+				"contact_url"
+			],
+			[
+				"shop",
+				"shop-index"
+			],
+			[
+				"contac",
+				"Contact"
+			],
+			[
+				"tem",
+				"Template"
+			],
+			[
+				"sho",
+				"shop_index"
+			],
+			[
+				"pr",
+				"product_list_url"
+			],
+			[
+				"co",
+				"contact_url"
+			],
+			[
+				"hom",
+				"home_url"
+			],
+			[
+				"get_",
+				"get_object_or_404"
+			],
+			[
+				"fet",
+				"featured"
+			],
+			[
+				"product",
+				"product_list_view"
+			],
+			[
+				"de",
+				"default"
+			],
+			[
+				"base",
+				"base_name"
+			],
+			[
+				"ge",
+				"get_object_or_404"
+			],
+			[
+				"p",
+				"ProductListView"
+			],
+			[
+				"lis",
+				"ListView"
+			],
+			[
+				"pro",
+				"Product_List_view"
+			],
+			[
+				"st",
+				"static"
+			],
+			[
+				"url",
+				"urlpatterns"
+			],
+			[
+				"us",
+				"username"
+			],
+			[
+				"user",
+				"User"
+			],
+			[
+				"Us",
+				"User"
+			],
+			[
+				"User",
+				"username"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"pas",
+				"password2"
+			],
+			[
+				"g",
+				"get"
+			],
+			[
+				"passw",
+				"password"
+			],
+			[
+				"pa",
+				"PasswordInput"
+			],
+			[
+				"emai",
+				"EmailInput"
+			],
+			[
+				"sta",
+				"static_dirs"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"te",
+				"templates"
+			],
+			[
+				"i",
+				"is_authenticated"
+			],
+			[
+				"po",
+				"POST"
+			],
+			[
+				"auth",
+				"authenticate"
+			],
+			[
+				"use",
+				"user"
+			],
+			[
+				"r",
+				"Redirect"
+			],
+			[
+				"conte",
+				"context"
+			],
+			[
+				"login",
+				"LoginForm"
+			],
+			[
+				"cl",
+				"cleaned_data"
+			],
+			[
+				"cont",
+				"context"
+			],
+			[
+				"Form",
+				"Form"
+			],
+			[
+				"P",
+				"POST"
+			],
+			[
+				"ao",
+				"about_page"
+			],
+			[
+				"ht",
+				"html_"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"abo",
+				"about_page"
+			],
+			[
+				"templat",
+				"TEMPLATES"
+			],
+			[
+				"Home",
+				"home_page"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/search/views.py",
+			"settings":
+			{
+				"buffer_size": 872,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "package contronl",
+		"selected_items":
+		[
+			[
+				"package contronl",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"package contron",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 360.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/search",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/static_my_proj",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/static_cdn",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/static_cdn/static_root"
+	],
+	"file_history":
+	[
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/templates/shop-index.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/templates/base/footer.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/templates/contact/view.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/products/templates/products/detail.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/templates/base/css.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/templates/base.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/accounts/templates/accounts/login.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/accounts/templates/accounts/register.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/templates/base/nav.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/static_my_proj/assets/global/plugins/fancybox/source/jquery.fancybox.js",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/static_my_proj/assets/admin/pages/css/profile-old.css",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/static_my_proj/assets/frontend/layout/scripts/back-to-top.js",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/static_my_proj/assets/global/plugins/ckeditor/ckeditor.js",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/carts/templates/carts/checkout-done.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/carts/templates/carts/checkout.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/templates/base/sidebar.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/products/templates/products/featured-detail.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/templates/shop-item.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/products/templates/products/snippets/card.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/products/templates/products/list.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/templates/shop-about.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/ecommerce/urls.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/ecommerce/views.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/products/templates/products/snippets/update-cart.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/templates/shop-product-list.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/templates/base/css1.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/templates/base/js.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/accounts/views.py",
+		"/E/project/ecommerce/src/ecommerce/forms.py",
+		"/E/project/ecommerce/src/ecommerce/tokens.py",
+		"/E/project/ecommerce/src/ecommerce/views.py",
+		"/E/project/ecommerce/src/ecommerce/model.py",
+		"/E/project/ecommerce/src/ecommerce/urls.py",
+		"/E/project/ecommerce/src/ecommerce/account_activation_email.html",
+		"/E/project/ecommerce/src/ecommerce/settings.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/ecommerce/forms.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/search/templates/search/snippets/search-form.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/templates/base1.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/templates/home_page.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/templates/base/js1.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/accounts/templates/accounts/snippets/form.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/billing/models.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/addresses/views.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/orders/models.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/addresses/templates/addresses/prev_addresses.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/carts/views.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/carts/urls.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/addresses/models.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/Lib/site-packages/django/contrib/gis/gdal/driver.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/addresses/templates/addresses/form.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/addresses/forms.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/Lib/site-packages/django/template/defaulttags.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/ecommerce/settings.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/addresses/admin.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/accounts/admin.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/accounts/models.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/accounts/forms.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/billing/admin.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/acoounts/views.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/accounts/apps.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/acoounts/apps.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/acoounts/forms.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/carts/models.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/carts/templates/carts/home.html",
+		"/C/Users/vagmisheladia/Downloads/eCommerce/src/carts/urls.py",
+		"/C/Users/vagmisheladia/Downloads/eCommerce/src/carts/checkout.html",
+		"/C/Users/vagmisheladia/Downloads/eCommerce/src/carts/views.py",
+		"/C/Users/vagmisheladia/Downloads/eCommerce/src/orders/models.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/products/models.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/tags/models.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/products/utils.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/ecommerce/utils.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/orders/admin.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/templates/base/navbar.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/products/views.py",
+		"/C/Users/vagmisheladia/Downloads/eCommerce/src/analytics/mixins.py",
+		"/E/project/de/direct/explorer/urls.py",
+		"/E/project/de/direct/templates/base/navbar.html",
+		"/E/project/de/direct/templates/base/nav.html",
+		"/E/project/de/direct/explorer/views.py",
+		"/E/project/de/direct/templates/auth/register.html",
+		"/E/project/de/direct/templates/auth/login.html",
+		"/E/project/de/direct/templates/base/sidebar.html",
+		"/E/project/de/direct/explorer/forms.py",
+		"/E/project/de/direct/templates/base1.html",
+		"/E/project/de/direct/templates/home_page.html",
+		"/E/project/de/direct/templates/base/css1.html",
+		"/E/project/de/direct/templates/base/js.html",
+		"/E/project/de/direct/templates/base/js1.html",
+		"/E/project/ecommerce/src/templates/base/nav.html",
+		"/E/project/de/direct/templates/base.html",
+		"/E/project/ecommerce/src/templates/base.html",
+		"/E/project/de/direct/templates/base/css.html",
+		"/E/project/de/direct/manage.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/manage.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/carts/admin.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/tags/shell_commands.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/tags/admin.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/search/views.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/search/templates/search/view.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/search/urls.py",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/templates/bootstrap/example.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/templates/auth/register.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/templates/auth/login.html",
+		"/C/Users/vagmisheladia/Downloads/eCommerce/src/products/models.py",
+		"/E/project/ecommerce/src/products/templates/products/snippets/card.html",
+		"/E/project/ecommerce/Lib/site-packages/django/contrib/admin/templates/admin/auth/user/change_password.html",
+		"/E/project/ecommerce/Include/abstract.h",
+		"/E/project/ecommerce/Lib/site-packages/django/contrib/admin/templates/admin/auth/user/add_form.html",
+		"/E/project/ecommerce/src/products/models.py",
+		"/E/project/ecommerce/src/templates/base/js.html",
+		"/E/project/ecommerce/src/templates/auth/register.html",
+		"/E/project/ecommerce/src/templates/auth/login.html",
+		"/E/project/ecommerce/src/templates/forgetpass.html",
+		"/E/project/ecommerce/src/templates/contact/view.html",
+		"/E/project/ecommerce/src/templates/base/sidebar.html",
+		"/E/project/ecommerce/src/templates/about.html",
+		"/E/project/ecommerce/src/templates/shop-terms-conditions-page.html",
+		"/E/project/ecommerce/src/templates/shop-index.html",
+		"/E/project/ecommerce/src/templates/page-login.html",
+		"/E/project/ecommerce/src/templates/base/css.html",
+		"/E/project/ecommerce/Lib/site-packages/pip/_vendor/cachecontrol/controller.py",
+		"/E/project/ecommerce/src/templates/index.html",
+		"/E/project/ecommerce/src/templates/base/navbar.html",
+		"/E/project/ecommerce/src/templates/blog-single.html",
+		"/E/project/ecommerce/src/templates/login.html",
+		"/E/project/ecommerce/src/templates/shop_index.html",
+		"/C/Users/vagmisheladia/pythonprojects/ecommerce/src/products/urls.py"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 538.0,
+		"where_history":
+		[
+			"C:\\Users\\vagmisheladia\\pythonprojects\\ecommerce",
+			"C:\\Users\\vagmisheladia\\pythonprojects\\ecommerce\\src",
+			"C:\\Users\\vagmisheladia\\pythonprojects\\ecommerce\\src\\acoounts",
+			"<open folders>,E:\\project\\",
+			"<open folders>,E:\\project\\ecommerce",
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"about",
+			"two",
+			"three",
+			"skin.png",
+			"skin.css",
+			"blank.gif",
+			"blank",
+			"url(",
+			"url(\"{",
+			"f",
+			"up.png",
+			"back",
+			"scroll",
+			"scroll ",
+			"up.png",
+			"endblo",
+			"sidebar col-md-3 col-sm-3",
+			"wrapper",
+			"title-wrapper",
+			"side",
+			"begin conte",
+			"p2",
+			"p1",
+			"slider",
+			"contac",
+			"home",
+			"guest",
+			"/register/guest",
+			"billing_billingprofile",
+			".user_id",
+			" billing_billingprofile.user_id",
+			"userid",
+			"acoounts",
+			"acoount",
+			">\n",
+			"Site administration\n",
+			"Select user to change\n",
+			"Select user to change",
+			"admin/auth/user",
+			"admin",
+			"home",
+			"uniform.min.js",
+			"fancybox.pack.js",
+			"back-to-top.js",
+			"blank",
+			"blank.gif ",
+			"skin",
+			"DROPDOWN",
+			"DROPDOWN MENU",
+			"DROPDOWN MENU -->",
+			"       /static/%20%20%20%20%20%20%20%3C!--%20END%20DROPDOWN MENU -->",
+			"DROPDOWN MENU",
+			"drop",
+			"../../assets/",
+			"acount ",
+			"acount",
+			"%}\"",
+			"pricing",
+			"girl2",
+			"product",
+			"{% load static %}",
+			"logi",
+			" <script src=\"https://code.jquery.com/jquery-3.2.1.slim.min.js\" integrity=\"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN\" crossorigin=\"anonymous\"></script>\n\t    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js\" integrity=\"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q\" crossorigin=\"anonymous\"></script>\n\t    <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js\" integrity=\"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl\" crossorigin=\"anonymous\"></script>",
+			"script>",
+			">",
+			"logi",
+			"esprit.jpg",
+			"blank.gif ",
+			"skin",
+			"esprit",
+			".gif",
+			"fancybox",
+			"skin",
+			"skin.cs",
+			"skin.cssss",
+			"/assets/global/plugins/slider-layer-slider/css/blank.gif",
+			"darkskin",
+			"skin",
+			"skim",
+			"up.pn",
+			"up.png ",
+			"cart-img.jpg",
+			"orange.css",
+			"orange",
+			"k4",
+			"css/frontend/pages/img/brands/esprit.jpg",
+			".png",
+			"up.png",
+			"up",
+			"blank.gif",
+			"puma",
+			"blank.gif",
+			"skin.css",
+			"../../assets/",
+			"product_list_view",
+			"css\">",
+			"href=\"",
+			"css\">",
+			"href=\"",
+			"css\">",
+			") }}\">",
+			"type= \"text/css\" href=\"{{ url_for('static', filename=",
+			"type= \"text/css\" href=\"{{ url_for('static', filename='",
+			"type= \"text/css\" href=\"{{ url_for('static', filename=",
+			"href=\"{{ url_for('static', filename=",
+			" href=\"{{ url_for('static', filename=",
+			"rel=\"stylesheet\"",
+			".css\">",
+			"href=\"",
+			"href="
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"assets/",
+			"css') }}\">",
+			"href=\"{{ url_for('static', filename='",
+			"css' %}\">",
+			"href=\"{% static '",
+			"') }}\">",
+			" %}\">",
+			"href=\"{% static ",
+			"rel= \"stylesheet\" type= \"text/css\"",
+			"') }}\">",
+			"href=\"{{ url_for('static', filename='",
+			"href=\"{{ url_for('static', filename="
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/search/views.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 872,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 182.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ecommerce.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"card",
+				"src\\products\\templates\\products\\snippets\\card.html"
+			],
+			[
+				"",
+				"Include\\abstract.h"
+			],
+			[
+				"admin/auth/user",
+				"Lib\\site-packages\\django\\contrib\\admin\\templates\\admin\\auth\\user\\change_password.html"
+			],
+			[
+				"packagecontrol",
+				"ecommerce\\Lib\\site-packages\\pip\\_vendor\\cachecontrol\\controller.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 420.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 313.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

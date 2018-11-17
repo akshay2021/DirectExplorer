@@ -1,0 +1,111 @@
+{% extends "base.html" %}
+   
+{% block content %}
+    <div class="main">
+      <div class="container">
+
+        <!-- BEGIN SIDEBAR & CONTENT -->
+        <div class="row margin-bottom-40">
+          <!-- BEGIN CONTENT -->
+          <div class="col-md-12 col-sm-12">
+            <h1>Checkout</h1>
+            <!-- BEGIN CHECKOUT PAGE -->
+            <div class="panel-group checkout-page accordion scrollable" id="checkout-page">
+
+              <!-- BEGIN CHECKOUT -->
+              <div id="checkout" class="panel panel-default">
+                <div class="panel-heading">
+                  <h2 class="panel-title">
+                  </h2>
+                </div>
+            {% if not billing_profile %}
+                <div id="checkout-content" class="panel-collapse collapse in">
+
+                  <div class="panel-body row">
+                    <div class="col-md-6 col-sm-6">
+                      <h3>Returning Customer</h3>
+                      <p>I am a returning customer.</p>
+                      {% include 'accounts/snippets/form.html' with form=login_form next_url=request.build_absolute_uri %}
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                      <h3>New Customer</h3>
+                      <p>Checkout Options:</p>
+                       Continue as Guest
+
+                        {% url "guest_register" as guest_register_url %}
+                        {% include 'accounts/snippets/form.html' with form=guest_form next_url=request.build_absolute_uri action_url=guest_register_url %}
+                        <br>
+                      <p>By creating an account you will be able to shop faster, be up to date on an order's status, and keep track of the orders you have previously made.</p>
+                      <button class="btn btn-primary" type="submit" data-toggle="collapse" data-parent="#checkout-page" data-target="#payment-address-content">Continue</button>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <!-- END CHECKOUT -->
+    {% else %}
+            
+        {% if not object.shipping_address %}
+
+         <div class='row'>
+            <div class='col-12'>
+                <p class='lead'>Shipping Address</p>
+                <hr/>
+            </div>
+            <div class='col-6'>
+                
+                    {% url "checkout_address_create" as checkout_address_create %}
+                    {% include 'addresses/form.html' with form=address_form next_url=request.build_absolute_uri action_url=checkout_address_create address_type='shipping' %}'
+
+             </div>
+         <div class='col-6'>
+            {% url 'checkout_address_reuse' as checkout_address_reuse %}
+            {% include 'addresses/prev_addresses.html' with address_qs=address_qs next_url=request.build_absolute_uri address_type='shipping' action_url=checkout_address_reuse %}
+            </div>
+        </div>
+
+
+        {% elif not object.billing_address %}
+        <div class='row'>
+            <div class='col-12'>
+                 <p class='lead'>Billing Address</p>
+                <hr/>
+            </div>
+            <div class='col-6'>
+               
+            {% url "checkout_address_create" as checkout_address_create %}
+            {% include 'addresses/form.html' with form=address_form next_url=request.build_absolute_uri action_url=checkout_address_create address_type='billing' %}
+            </div>
+              <div class='col-6'>
+                {% url 'checkout_address_reuse' as checkout_address_reuse %}
+             {% include 'addresses/prev_addresses.html' with address_qs=address_qs next_url=request.build_absolute_uri  address_type='billing' action_url=checkout_address_reuse %}
+         </div>
+
+         
+        </div>
+        {% else %}
+           
+                <h1>Finalize Checkout</h1>
+                <p>Cart Items: {% for product in object.cart.products.all %}{{ product }}{% if not forloop.last %}, {% endif %}{% endfor %}</p>
+                <p>Shipping Address: {{ object.shipping_address.get_address }}</p>
+                <p>Billing Address: {{ object.shipping_address.get_address }}</p>
+                <p>Cart Total: {{ object.cart.total }}</p>
+                <p>Shipping Total: {{ object.shipping_total }}</p>
+                <p>Order Total: {{ object.total }}</p>
+
+                <form class='form' method='POST' action="">{% csrf_token %}
+                    <button type='submit' class='btn btn-primary'>Checkout</button>
+                </form>
+        
+        {% endif %}
+{% endif %}
+
+
+
+{% endblock %}
+
+
+
+
+
+    
